@@ -3,14 +3,14 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class WeightedGradesGUI extends JFrame {
+public class A6_WeightedGradesGUI extends JFrame {
 
     private JTextField totalPointsField;
     private JTextField earnedPointsField;
     private JTextField percentageField;
     private JLabel weightedScoreLabel;
 
-    public WeightedGradesGUI() {
+    public A6_WeightedGradesGUI() {
         // Set up the frame
         setTitle("Weighted Grades Calculator");
         setSize(400, 300);
@@ -108,6 +108,6 @@ public class WeightedGradesGUI extends JFrame {
     }
 
     public static void main(String[] args) {
-        new WeightedGradesGUI();
+        new A6_WeightedGradesGUI();
     }
 }

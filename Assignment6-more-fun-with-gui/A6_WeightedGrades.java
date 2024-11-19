@@ -1,4 +1,4 @@
-public class WeightedGrades {
+public class A6_WeightedGrades {
 
     // Attributes for total points, earned points, and percentage weight
     private double totalPoints;
@@ -6,7 +6,7 @@ public class WeightedGrades {
     private double percentage;
 
     // Constructor
-    public WeightedGrades(double totalPoints, double earnedPoints, double percentage) {
+    public A6_WeightedGrades(double totalPoints, double earnedPoints, double percentage) {
         this.totalPoints = totalPoints;
         this.earnedPoints = earnedPoints;
         this.percentage = percentage;

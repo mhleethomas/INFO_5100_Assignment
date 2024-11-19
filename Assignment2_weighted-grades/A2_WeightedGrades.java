@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class WeightedGrades{
+public class A2_WeightedGrades{
     // Create a scanner instance for user input
     Scanner scanner = new Scanner(System.in);
 

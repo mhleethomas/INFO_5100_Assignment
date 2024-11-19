@@ -5,13 +5,13 @@ import java.awt.event.ActionListener;
 import java.io.*;
 import java.util.ArrayList;
 
-public class FileReadWriteGUI extends JFrame {
+public class A7_FileReadWriteGUI extends JFrame {
     private JTextField fileNameInput, newFileNameInput;
     private JTextArea fileReadOutput, fileWritePreview;
     private JButton readButton, writeButton;
     private ArrayList<String> fileLines = new ArrayList<>();
 
-    public FileReadWriteGUI() {
+    public A7_FileReadWriteGUI() {
         setTitle("File Reader and Writer");
         setLayout(new FlowLayout());
 
@@ -96,6 +96,6 @@ public class FileReadWriteGUI extends JFrame {
     }
 
     public static void main(String[] args) {
-        new FileReadWriteGUI();
+        new A7_FileReadWriteGUI();
     }
 }
