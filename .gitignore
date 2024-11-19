@@ -1,0 +1,42 @@
+# Ignore node_modules folder
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore build output
+dist/
+build/
+
+# Ignore environment variables
+.env
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore dependency directories
+jspm_packages/
+
+# Ignore compiled files
+*.out
+*.class
+*.pyc
+*.o
+*.obj
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+*.orig
+*.save
+
+# Ignore IDE specific files
+.idea/
+*.iml
